@@ -1,0 +1,16 @@
+{%  extends "./polls.html" %}
+
+{% load staticfiles %}
+
+
+{% block content %}
+    <h3>List of the most popular English sayings:</h3>
+    <hr style="opacity:0">
+    <h3>  </h3>
+    {% for obj in content %}
+        <p>* {{ obj }}</p>
+    {% endfor %}
+    <img src={% static "media/bridge.jpg" %} width="257" height="150">
+    <img src={% static "media/cat.jpg" %} width="257" height="150">
+    <img src={% static "media/glass.jpg" %} width="257" height="150">
+{% endblock %}

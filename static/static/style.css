@@ -1,0 +1,162 @@
+/* || General setup */
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 12px;
+  background-color: #E0E6EA;
+}
+
+body {
+  background-color: #E0E6EA;
+  width: 70%;
+  margin: 0 auto;
+}
+
+/* || typography */
+
+h1, h2, h3 {
+  /*font-family: 'Permanent Marker', cursive;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Noto Sans', sans-serif;*/
+  font-family: 'Permanent Marker', cursive;
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Barlow', sans-serif;
+  color: #2a2a2a;
+}
+
+
+p, input, li {
+  /*font-family: 'Permanent Marker', cursive;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Noto Sans', sans-serif;*/
+  font-family: 'Permanent Marker', cursive;
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Barlow', sans-serif;
+  color: #2a2a2a;
+}
+
+h1 {
+  font-size: 4rem;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 10px black;
+}
+
+h2 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+h3 {
+  font-size: 2.2rem;
+}
+
+p, li {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+/* || header layout */
+
+nav, article, aside, footer {
+  background-color: white;
+  padding: 1%;
+}
+
+nav {
+  height: 53px;
+  background-color: #396E9C ;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+
+nav form {
+  display: flex;
+  height: 150%;
+  padding: 0 2em;
+
+}
+
+
+input {
+  font-size: 1.6rem;
+  height: 32px;
+}
+
+input[type="search"] {
+  margin-left:80px;
+  flex: 2;
+}
+
+/* || main layout */
+
+main {
+  display: flex;
+}
+
+article {
+  margin-top:53px;
+  margin-left:210px;
+  flex: 4;
+}
+
+aside {
+  position: fixed;
+  top: 30;
+  flex: 1;
+  margin: 53px 0px 0px 0px;
+  background-color: #E0E6EA;
+}
+
+nav form img{
+  flex: 20;
+  margin-top: -18px;
+  margin-left: 17rem;
+}
+
+footer {
+  height: 50px;
+  margin-top: 10px;
+}
+
+.image-flex {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h2 {
+  background-color: #90B0C4;
+}
+
+/*h3 {
+  background-color: #C5DAE6;
+  background-size: cover;
+  width: 30%
+}*/
+
+.btn {
+  text-align: left;
+  width: 170px;
+  font-size: 22px;
+  margin-left: 1rem;
+  border: 0;
+  background: #E0E6EA;
+  color: #134666;
+}
+
+.btn:hover {
+  background: #829BAA;
+}
+
+
